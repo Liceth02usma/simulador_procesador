@@ -1,8 +1,11 @@
 import pygame
 
+from entradaSalida import control_io
+
 class InterfazIO:
     def __init__(self, screen):
         self.screen = screen
+        self.control_io = control_io
         
 
     def dibujar(self):

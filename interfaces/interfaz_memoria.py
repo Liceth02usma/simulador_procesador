@@ -1,8 +1,11 @@
 import pygame
 
+#from memoria.control_memoria import control_memoria
+
 class InterfazMemoria:
     def __init__(self, screen):
         self.screen = screen
+        #self.control_memoria = control_memoria()
         self.white = (255, 255, 255) 
 
     def dibujar(self):

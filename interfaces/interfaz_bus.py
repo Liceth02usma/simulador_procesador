@@ -1,7 +1,10 @@
 import pygame
 
+import  buses.control_bus as control_bus
+
 class InterfazBus:
     def __init__(self, screen):
+        #self.control_bus = control_bus()
         self.screen = screen
         self.white = (255, 255, 255) 
 

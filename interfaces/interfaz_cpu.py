@@ -1,9 +1,12 @@
 import pygame
 
+from cpu.unidad_control import unidad_control
+
 
 class InterfazCPU:
     def __init__(self, screen):
         self.screen = screen
+        self.control_cpu = unidad_control()
         # Colores
         self.background_color = (60, 60, 60)  # Gris oscuro
         self.frame_color = (217, 217, 217)    # Gris claro
